@@ -85,14 +85,12 @@ figure figcaption::after {
   content: '';
 }
 
-/*
-
 section {
   margin: 5%;
   padding: 1%;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
