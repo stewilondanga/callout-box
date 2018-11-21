@@ -51,20 +51,21 @@ figure figcaption {
   font-weight: 500;
 }
 
-/*figure figcaption::before {
+figure figcaption::before {
   position: absolute;
   top: calc(100% - 24px);
   left: calc(100% + 5px);
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
   border-left: 50px solid black;
   content: '';
 }
-figure figcaption::after {
+
+/*figure figcaption::after {
   position: absolute;
   top: calc(100% - 22px);
   left: 100%;
