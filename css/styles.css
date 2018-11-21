@@ -65,21 +65,21 @@ figure figcaption::before {
   content: '';
 }
 
-/*figure figcaption::after {
+figure figcaption::after {
   position: absolute;
   top: calc(100% - 22px);
   left: 100%;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 40px solid white;
   content: '';
 }
 
-body {
+/*body {
   background: #2f2f39;
   font: 14px/1.35 "IBM Plex Mono", monospace;
   color: white;
