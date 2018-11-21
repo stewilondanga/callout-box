@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500");
+body {
+  background: #2f2f39;
+  font: 14px/1.35 "IBM Plex Mono", monospace;
+  color: white;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -79,11 +85,7 @@ figure figcaption::after {
   content: '';
 }
 
-/*body {
-  background: #2f2f39;
-  font: 14px/1.35 "IBM Plex Mono", monospace;
-  color: white;
-}
+/*
 
 section {
   margin: 5%;
