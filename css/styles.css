@@ -22,7 +22,7 @@ figure {
   transform: translate(-50%, -50%);
 }
 
-/*figure img {
+figure img {
   display: block;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -32,10 +32,11 @@ figure {
   width: 250px;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   box-shadow: 0 0 0 4px #0c4842, 0 0 14px 4px #21ccbb, 0 0 14px 6px white;
 }
-figure figcaption {
+
+/*figure figcaption {
   position: absolute;
   top: 0;
   left: 0;
